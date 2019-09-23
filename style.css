@@ -1,0 +1,151 @@
+* {
+    box-sizing: border-box;
+    padding: 0;
+    margin: 0;
+    
+}
+body{
+ background-color: #F0ECEE;
+ margin:0;
+ font-family: 'Fira Sans', sans-serif;
+ font-weight: 400;
+ padding: 0;
+ background-size: 100%;
+}
+
+
+
+.navbar {
+    padding: 10px;
+    display: block;
+
+    
+}
+
+.main-nav {
+    
+list-style-type: none;
+    padding: 
+  
+}
+
+a {
+    text-decoration: none;
+    color: #88898B;
+}
+
+a:hover {
+    color:#FF4850;
+}
+
+.nav-links{
+    
+    margin: 15px auto;
+    padding-top: 10px;
+    
+}
+
+.Home{
+    display: inline-block;
+    padding: 10x;
+    color:black;
+    font-weight: 400;
+    font-size: 25px;
+}
+
+
+.Button{
+    color: #F0ECEE;
+    background-color: #FF4850;
+    padding: 10px;
+    border-radius: 15px;
+    border-style: solid;
+    display: block;
+    width: 100%;
+    font-size: 15px;
+    font-weight: 400;
+}
+
+.Button:hover{
+    background-color: #CCC;
+    color: #FF4850;
+}
+
+
+
+div{
+    padding: 10px;
+}
+
+
+
+.highlight{
+    color:#FF4850;
+}
+
+
+h1{
+    font-weight: 600;
+}
+
+p {
+    color: #88898B;
+    line-height: 25px;
+    font-weight: 400;
+}
+
+
+@media screen and (min-width: 768px){
+    .navbar{
+        display: flex;
+        justify-content: space-between;
+        height: 70px;
+        align-items: center;
+    
+    }
+    
+    .main-nav{
+        display: flex;
+        margin-right: 30px;
+        flex-direction: row;
+        justify-content: flex-end;
+        align-items: center;
+    }
+    
+    .main-nav li {
+        margin: 0; 
+        margin-left: 40px;
+    }
+    
+    .Home {
+        padding: 10px;
+    }
+    
+    body {
+        background-image: url("bulldog.jpg");
+        background-repeat: no-repeat;
+        background-size: 100%;
+        position: relative;
+        background-color: #F0ECEE;
+        
+}
+    
+    div{
+     position: absolute;
+     left: 10px;
+     top: 200px;
+     right: 600px;
+    
+}
+    
+    .Button{
+    color: #F0ECEE;
+    background-color: #FF4850;
+    padding: 10px;
+    border-radius: 15px;
+    border-style: solid;
+    display: inline;
+    width: auto;
+
+    
+}
